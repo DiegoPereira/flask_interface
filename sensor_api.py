@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/get_noise")
 def get_noise():
-    return "Hello World!"
+    return "Hello World"
 
 @app.route("/insert_noise")
 def insert_noise():
